@@ -34,6 +34,9 @@
                         'row-1-2-button': '#FF4240',
                         'card-border': 'rgba(19, 19, 24, 0.10)',
                         'footer-main-color': 'rgba(255, 255, 255, 0.60)',
+                        'telephone-bg':'rgba(188, 237, 109, 0.10)',
+                        'mail-bg':'rgba(253, 221, 95, 0.10)',
+                        'location-bg':'rgba(98, 156, 243, 0.10)',
                     },
                     backgroundImage: {
                         'program-section-col-1': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/2.png')",
@@ -451,17 +454,53 @@
         </section>
 
 
+        <section class="flex flex-col lg:flex-row gap-6 my-12">
+            <section class="w-full lg:w-[510px] h-[664px] lg:h-[764px] p-6 lg:p-[50px] border-[1px] border-card-border rounded-2xl space-y-4 lg:space-y-6">
+                <div class="bg-telephone-bg h-[184px] lg:h-[216px] pl-8 pt-8 lg:pt-10 rounded-2xl">
+                    <img src="Images/Group 1171275317.png" alt="" class="w-12 h-12 mb-6">
+                    <p class="text-[#717177] font-normal text-base">Phone Number :</p>
+                    <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+                        (+62) 123-321-543
+                    </h3>
+                </div>
+
+                <div class="bg-mail-bg h-[184px] lg:h-[216px] pl-8 pt-8 lg:pt-10 rounded-2xl">
+                    <img src="Images/Group 1171275318.png" alt="" class="w-12 h-12 mb-6">
+                    <p class="text-[#717177] font-normal text-base">Email : </p>
+                    <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+                        hockeys@support.com
+                    </h3>
+                </div>
+
+                <div class="bg-location-bg h-[216px] lg:h-[184px] p-8 rounded-2xl">
+                    <img src="Images/Group 1171275321.png" alt="" class="w-12 h-12 mb-6">
+                    <p class="text-[#717177] font-normal text-base">Location : </p>
+                    <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+                        152/1 Mohakhali Wireless Gate
+                    </h3>
+                </div>
+            </section>
+
+            <section class="w-[710px] h-[764px] bg-slate-700">
+
+            </section>
+        </section>
+
+
 
 
 
     </main>
 
-    <footer class="text-center lg:text-left flex flex-col lg:flex-row gap-10 lg:gap-[158px] h-[869px] lg:h-[454px] px-10 lg:px-[135px] py-10 lg:py-[100px] bg-[#131318] text-footer-main-color text-base">
+    <footer
+        class="text-center lg:text-left flex flex-col lg:flex-row gap-10 lg:gap-[158px] h-[869px] lg:h-[454px] px-10 lg:px-[135px] py-10 lg:py-[100px] bg-[#131318] text-footer-main-color text-base">
         <div>
             <h1 class="mb-4 text-2xl lg:text-[28px] font-extrabold text-[#FFF]">Get In Touch</h1>
-            <p class="mb-6 lg:w-[346px] text-base font-medium leading-6">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+            <p class="mb-6 lg:w-[346px] text-base font-medium leading-6">Dit amet consectetur. Condimentum adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit nullam
                 proin. </p>
-            <h3 class="mb-[18px]"><i class="fa-regular fa-envelope text-red-500"></i>&nbsp; &nbsp;hockeys@support.com</h3>
+            <h3 class="mb-[18px]"><i class="fa-regular fa-envelope text-red-500"></i>&nbsp; &nbsp;hockeys@support.com
+            </h3>
             <h3><i class="fa-solid fa-phone text-red-500"></i> (+62) 123-321-543</h3>
 
         </div>

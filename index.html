@@ -34,9 +34,10 @@
                         'row-1-2-button': '#FF4240',
                         'card-border': 'rgba(19, 19, 24, 0.10)',
                         'footer-main-color': 'rgba(255, 255, 255, 0.60)',
-                        'telephone-bg':'rgba(188, 237, 109, 0.10)',
-                        'mail-bg':'rgba(253, 221, 95, 0.10)',
-                        'location-bg':'rgba(98, 156, 243, 0.10)',
+                        'telephone-bg': 'rgba(188, 237, 109, 0.10)',
+                        'mail-bg': 'rgba(253, 221, 95, 0.10)',
+                        'location-bg': 'rgba(98, 156, 243, 0.10)',
+                        'input-bg-color': 'rgba(19, 19, 24, 0.03)',
                     },
                     backgroundImage: {
                         'program-section-col-1': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/2.png')",
@@ -454,8 +455,9 @@
         </section>
 
 
-        <section class="flex flex-col lg:flex-row gap-6 my-12">
-            <section class="w-full lg:w-[510px] h-[664px] lg:h-[764px] p-6 lg:p-[50px] border-[1px] border-card-border rounded-2xl space-y-4 lg:space-y-6">
+        <section class="flex flex-col lg:flex-row gap-6 my-10 lg:my-12">
+            <section
+                class="w-full lg:w-[510px] h-[664px] lg:h-[764px] p-6 lg:p-[50px] border-[1px] border-card-border rounded-2xl space-y-4 lg:space-y-6">
                 <div class="bg-telephone-bg h-[184px] lg:h-[216px] pl-8 pt-8 lg:pt-10 rounded-2xl">
                     <img src="Images/Group 1171275317.png" alt="" class="w-12 h-12 mb-6">
                     <p class="text-[#717177] font-normal text-base">Phone Number :</p>
@@ -481,9 +483,56 @@
                 </div>
             </section>
 
-            <section class="w-[710px] h-[764px] bg-slate-700">
+            <section class="w-full lg:w-[710px] h-[864px] lg:h-[764px]">
+                <div class="flex flex-col lg:flex-row gap-5 lg:gap-6">
+                    <div class="w-full ">
+                        <h1 class="text-xl text-[#131318] font-bold mb-4">Your Name</h1>
+                        <input class="p-5 w-full bg-input-bg-color rounded-xl" type="text"
+                            placeholder="Enter your full name">
+                    </div>
+                    <div class="w-full">
+                        <h1 class="text-xl text-[#131318] font-bold mb-4">Your Email</h1>
+                        <input class="p-5 w-full bg-input-bg-color rounded-xl" type="email"
+                            placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-5 lg:gap-6 my-5 lg:my-6">
+                    <div class="w-full ">
+                        <h1 class="text-xl text-[#131318] font-bold mb-4">Subject</h1>
+                        <input class="p-5 w-full bg-input-bg-color rounded-xl" type="text"
+                            placeholder="Enter your subject">
+                    </div>
+                    <div class="w-full">
+                        <h1 class="text-xl text-[#131318] font-bold mb-4">Phone Number</h1>
+                        <input class="p-5 w-full bg-input-bg-color rounded-xl" type="number"
+                            placeholder="Enter your phone number">
+                    </div>
+                </div>
+
+                <div class="">
+                    <h1 class="text-xl text-[#131318] font-bold mb-4">Message</h1>
+                    <textarea class="p-8 w-full h-[200px] lg:h-[355px] bg-input-bg-color rounded-xl"
+                        placeholder="Write your message"></textarea>
+
+                </div>
+
+                <button class="mt-6 lg:mt-8 w-full py-4 bg-[#FF4240] rounded-xl text-xl font-bold text-[#FFF]">Send
+                    Message</button>
 
             </section>
+        </section>
+
+        <section class="text-center w-full h-[150px] bg-input-bg-color rounded-xl mb-10 lg:mb-[100px]">
+            <h1 class="text-2xl text-[#131318] font-extrabold pt-9">Social Media</h1>
+            <div class="space-x-6 text-2xl mt-4">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+
         </section>
 
 

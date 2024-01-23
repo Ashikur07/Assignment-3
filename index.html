@@ -33,6 +33,7 @@
                         'background-common-color': 'rgba(19, 19, 24, 0.50)',
                         'row-1-2-button': '#FF4240',
                         'card-border': 'rgba(19, 19, 24, 0.10)',
+                        'footer-main-color': 'rgba(255, 255, 255, 0.60)',
                     },
                     backgroundImage: {
                         'program-section-col-1': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/2.png')",
@@ -86,6 +87,7 @@
     </header>
 
     <main class="mx-5 lg:mx-[135px] mt-[120px]">
+
         <section class=" border-dashed border-dottet border-y-2 text-center space-y-4 lg:space-y-6 py-6 lg:py-9">
             <h1 class="text-[24px] lg:text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
             <p class="text-[15px] lg:text-base font-medium text-common-peragraph leading-6">Dit amet consectetur.
@@ -107,7 +109,8 @@
             </div>
 
             <div class="text-center space-y-4">
-                <div class="radial-progress text-[#49D293]" style="--value:95; --size:7.5rem; --thickness:12px;" role="progressbar">
+                <div class="radial-progress text-[#49D293]" style="--value:95; --size:7.5rem; --thickness:12px;"
+                    role="progressbar">
                     <h1 class="text-[28px] font-extrabold text-[#131318]">95%</h1>
                 </div>
                 <h1 class="font-semibold text-xl text-[#131318]">Experienced Coach</h1>
@@ -116,7 +119,8 @@
             </div>
 
             <div class="text-center space-y-4">
-                <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem; --thickness:12px;" role="progressbar">
+                <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem; --thickness:12px;"
+                    role="progressbar">
                     <h1 class="text-[28px] font-extrabold text-[#131318]">90%</h1>
                 </div>
                 <h1 class="font-semibold text-xl text-[#131318]">Senior Player
@@ -126,7 +130,8 @@
             </div>
 
             <div class="text-center space-y-4">
-                <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem; --thickness:12px;" role="progressbar">
+                <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem; --thickness:12px;"
+                    role="progressbar">
                     <h1 class="text-[28px] font-extrabold text-[#131318]">80%</h1>
                 </div>
                 <h1 class="font-semibold text-xl text-[#131318]">Training Ground</h1>
@@ -341,7 +346,7 @@
 
 
         <section
-            class="px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-5 mt-6 lg:mt-12 mb-20 h-[860px] lg:h-[520px] border-[1px] border-card-border rounded-2xl">
+            class="px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-5 mt-6 lg:mt-12 h-[860px] lg:h-[520px] border-[1px] border-card-border rounded-2xl">
             <div class="col-span-2 pt-6 w-full"><img src="Images/11.png" alt=""
                     class="w-[310px] lg:w-[441px] h-[270px] lg:h-[470px]"></div>
 
@@ -437,11 +442,54 @@
 
         </section>
 
+        <section
+            class="mt-[100px] border-dashed border-dottet border-y-2 text-center space-y-4 lg:space-y-6 py-6 lg:py-9">
+            <h1 class="text-[24px] lg:text-4xl font-extrabold text-[#131318]">Get In Touch</h1>
+            <p class="text-[15px] lg:text-base font-medium text-common-peragraph leading-6">Dit amet consectetur.
+                Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.
+            </p>
+        </section>
+
+
+
+
 
     </main>
 
-    <footer>
+    <footer class="text-center lg:text-left flex flex-col lg:flex-row gap-10 lg:gap-[158px] h-[869px] lg:h-[454px] px-10 lg:px-[135px] py-10 lg:py-[100px] bg-[#131318] text-footer-main-color text-base">
+        <div>
+            <h1 class="mb-4 text-2xl lg:text-[28px] font-extrabold text-[#FFF]">Get In Touch</h1>
+            <p class="mb-6 lg:w-[346px] text-base font-medium leading-6">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                proin. </p>
+            <h3 class="mb-[18px]"><i class="fa-regular fa-envelope text-red-500"></i>&nbsp; &nbsp;hockeys@support.com</h3>
+            <h3><i class="fa-solid fa-phone text-red-500"></i> (+62) 123-321-543</h3>
 
+        </div>
+        <div class="ml-10 lg:ml-0 flex gap-10 lg:gap-[158px]">
+            <nav class="flex flex-col space-y-4">
+                <header class="mb-[15px] text-lg text-[#fff] font-bold">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News & Article</a>
+                <a class="link link-hover">Legal Notice</a>
+            </nav>
+            <nav class="flex flex-col space-y-4">
+                <header class="mb-[15px] text-lg text-[#fff] font-bold">Support</header>
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+        </div>
+        <nav class="flex flex-col space-y-4">
+            <header class="mb-[15px] text-lg text-[#fff] font-bold">Services</header>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
     </footer>
 
 </body>
